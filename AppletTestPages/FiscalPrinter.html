@@ -1,0 +1,23 @@
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<title>Тестовая страница для принтеров</title>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="commands.js"></script>
+		<script type="text/javascript" src="json.js"></script>
+	</head>
+
+	<body>
+
+		<div style="margin: 0 auto; min-height: 200px; min-width: 200px;">
+
+			<p><b>Режим принтера : </b> <span id="printer_mode">Не определен</span></p>
+			<p><b>Подрежим принтера : </b> <span id="printer_submode">Не определен</span></p>
+
+		</div>
+
+		<div id="plugin_container">
+       		 <APPLET id = "equipment_applet" name="equipment_applet" archive="equipment.jar" code="ru/equipment/init/applet.class" width=1 height=1><PARAM NAME="separate_jvm" VALUE="true"></APPLET>
+    	</div>
+	</body>
+</html>
