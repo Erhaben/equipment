@@ -352,8 +352,12 @@ public class applet extends Applet
 
             ArrayList<String> check = a.get("check");
 
-            for(int i = 2; i < check.size(); i++)
-                this.printer.printString(2, 39, check.get(i));
+            String status = this.printerGetStatus();
+            if ( ! status.equalsIgnoreCase("-1"))
+            {
+                for(int i = 2; i < check.size(); i++)
+                    this.printer.printString(2, 39, check.get(i));
+            }
 
             JSONObject json = new JSONObject(a);
             answer = json.toString();
@@ -377,8 +381,12 @@ public class applet extends Applet
 
             ArrayList<String> check = a.get("check");
 
-            for(int i = 2; i < check.size(); i++)
-                this.printer.printString(2, 39, check.get(i));
+            String status = this.printerGetStatus();
+            if ( ! status.equalsIgnoreCase("-1"))
+            {
+                for(int i = 2; i < check.size(); i++)
+                    this.printer.printString(2, 39, check.get(i));
+            }
 
             JSONObject json = new JSONObject(a);
             answer = json.toString();
