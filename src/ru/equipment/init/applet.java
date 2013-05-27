@@ -399,6 +399,35 @@ public class applet extends Applet
         return answer;
     }
 
+    public String posRevise()
+    {
+        this.log("[Applet] Сверка итогов");
+        String answer = "";
+
+        try
+        {
+            HashMap<String, ArrayList> a = this.pos.revise();
+
+            ArrayList<String> check = a.get("check");
+
+            /*String status = this.printerGetStatus();
+            if ( ! status.equalsIgnoreCase("-1"))
+            {
+                for(int i = 2; i < check.size(); i++)
+                    this.printer.printString(2, 39, check.get(i));
+            }*/
+
+            JSONObject json = new JSONObject(a);
+            answer = json.toString();
+        }
+        catch (Exception ex)
+        {
+            answer = "-1";
+        }
+
+        return answer;
+    }
+
     public void log(String message)
     {
         String code = "console.log('" + message + "')";

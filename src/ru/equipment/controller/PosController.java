@@ -58,4 +58,23 @@ public class PosController
         });
         return this.transfer;
     }
+
+    public HashMap<String, ArrayList> revise()
+    {
+        this.transfer = null;
+        java.security.AccessController.doPrivileged(new PrivilegedAction<Void>() {
+            public Void run() {
+                try {
+                    VERIFONE_VX_810 pos = new VERIFONE_VX_810();
+                    transfer = pos.revise();
+                    pos = null;
+                } catch (Exception ex) {
+                    window.warn("[pos]" + ex.toString());
+                }
+
+                return null; // nothing to return
+            }
+        });
+        return this.transfer;
+    }
 }

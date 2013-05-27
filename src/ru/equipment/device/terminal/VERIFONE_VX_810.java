@@ -23,4 +23,9 @@ public class VERIFONE_VX_810
     {
         return this.device.outcome(amount);
     }
+
+    public HashMap<String, ArrayList> revise()
+    {
+        return this.device.revise();
+    }
 }
