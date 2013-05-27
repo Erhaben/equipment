@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="equipment:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/equipment_jar</output-path>
+    <root id="archive" name="equipment.jar">
+      <element id="module-output" name="equipment" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../Library/json-20090211.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
