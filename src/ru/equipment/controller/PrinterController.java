@@ -304,7 +304,7 @@ public class PrinterController
 
     public HashMap printString(final int type, final int limit, final String line)
     {
-        this.transfer = null;
+        this.transfer = new HashMap();
 
         java.security.AccessController.doPrivileged(new PrivilegedAction<Void>() {
             public Void run() {
@@ -314,13 +314,37 @@ public class PrinterController
 
                     if (line.length() >= limit)
                     {
-                         printer.printLongString(type, limit, line);
+                        printer.printLongString(type, limit, line);
                     }
                     else
                     {
-                         printer.printLine(type, line);
+                        transfer = printer.printLine(type, line);
                     }
 
+                    printer = null;
+                }
+                catch (Exception ex)
+                {
+                    window.warn("[Printer]" + ex.toString());
+                }
+
+                return null;
+            }
+        });
+
+        return this.transfer;
+    }
+
+    public HashMap printCliche()
+    {
+        this.transfer = null;
+
+        java.security.AccessController.doPrivileged(new PrivilegedAction<Void>() {
+            public Void run() {
+                try
+                {
+                    SHTRIH_M_PTK printer = new SHTRIH_M_PTK(device_name);
+                    transfer = printer.printCliche();
                     printer = null;
                 }
                 catch (Exception ex)

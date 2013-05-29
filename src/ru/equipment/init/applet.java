@@ -341,6 +341,49 @@ public class applet extends Applet
         return answer;
     }
 
+    public String printerPrintCliche()
+    {
+        this.log("[Applet] Печать клише");
+        String answer;
+
+        try
+        {
+            HashMap a = this.printer.printCliche();
+            if(a == null)
+                throw new Exception();
+
+            JSONObject json = new JSONObject(a);
+            answer = json.toString();
+        }
+        catch (Exception ex)
+        {
+            answer = "-1";
+        }
+        return answer;
+    }
+
+    public String printerPrintLine(String line)
+    {
+        this.log("[Applet] Печать строки");
+        String answer;
+
+        try
+        {
+            HashMap a = this.printer.printString(2, 39, line);
+            if(a == null)
+                throw new Exception();
+
+            JSONObject json = new JSONObject(a);
+            answer = json.toString();
+        }
+        catch (Exception ex)
+        {
+            answer = "-1";
+        }
+
+        return answer;
+    }
+
     public String posIncome(Double amount)
     {
         this.log("[Applet] Внесение денег по пластиковой карте");
@@ -352,12 +395,15 @@ public class applet extends Applet
 
             ArrayList<String> check = a.get("check");
 
-            String status = this.printerGetStatus();
+            /*String status = this.printerGetStatus();
             if ( ! status.equalsIgnoreCase("-1"))
             {
-                for(int i = 2; i < check.size(); i++)
+                for(int i = 2; i < check.size() - 1; i++)
                     this.printer.printString(2, 39, check.get(i));
-            }
+
+                this.printer.cut();
+                this.printer.printCliche();
+            }         */
 
             JSONObject json = new JSONObject(a);
             answer = json.toString();
@@ -381,12 +427,15 @@ public class applet extends Applet
 
             ArrayList<String> check = a.get("check");
 
-            String status = this.printerGetStatus();
+            /*String status = this.printerGetStatus();
             if ( ! status.equalsIgnoreCase("-1"))
             {
-                for(int i = 2; i < check.size(); i++)
+                for(int i = 2; i < check.size() - 1; i++)
                     this.printer.printString(2, 39, check.get(i));
-            }
+
+                this.printer.cut();
+                this.printer.printCliche();
+            }*/
 
             JSONObject json = new JSONObject(a);
             answer = json.toString();
@@ -413,8 +462,11 @@ public class applet extends Applet
             /*String status = this.printerGetStatus();
             if ( ! status.equalsIgnoreCase("-1"))
             {
-                for(int i = 2; i < check.size(); i++)
+                for(int i = 2; i < check.size() - 1; i++)
                     this.printer.printString(2, 39, check.get(i));
+
+                this.printer.cut();
+                this.printer.printCliche();
             }*/
 
             JSONObject json = new JSONObject(a);
