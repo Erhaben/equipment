@@ -17,6 +17,7 @@ public class applet extends Applet
     @Override
     public void init()
     {
+        // Hello
         this.printer = new PrinterController(this);
         this.pos = new PosController(this);
         this.window = JSObject.getWindow(this);
