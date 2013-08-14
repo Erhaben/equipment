@@ -15,7 +15,7 @@ public class shtrih_connector
     private int MAX_TRIES = 20;
 
     /* Интервалы */
-    private int MAX_INTERVAL = 50;
+    private final int MAX_INTERVAL = 10;
 
     /* Пароли */
     private int[] ADMIN_PASS = {0x1e,0x0,0x0,0x0}; // По умолчанию 30
@@ -34,71 +34,20 @@ public class shtrih_connector
             throw  new Exception("Device not found!");
     }
 
-    /* Проверка устройства при создании */
-    public boolean checkState() throws Exception
-    {
-        boolean result = false;
-
-        this.input = new FileInputStream(this.device.getAbsolutePath());
-        this.output = new FileOutputStream(this.device.getAbsolutePath());
-
-        this.output.flush();
-
-        Thread.sleep(this.MAX_INTERVAL * 3);
-
-        System.out.println(input.available());
-
-        this.output.write((byte)Sign.REQUEST);
-        this.output.flush();
-
-        Thread.sleep(this.MAX_INTERVAL * 8);
-        System.out.println(input.available());
-        Integer c = 0;
-        input.markSupported();
-        ArrayList<Integer> list = new ArrayList<Integer>();
-        if ( input.available() > 0)
-        {
-            while ((c = input.read()) != -1)
-                list.add(c);
-
-            if (list.size() > 0)
-            {
-                if(list.get(0) == Status.ERROR)
-                {
-                    byte[] command = new byte[2];
-                    command[0] = (byte)Status.OK;
-                    command[1] = (byte)Sign.REQUEST;
-                    this.output.write(command);
-                    this.output.flush();
-                    result = true;
-                }
-            }
-        }
-
-        this.input.close();
-        this.output.close();
-
-        return  result;
-    }
-
     /* Очистить соединение */
-    private int sendClearCommand() throws Exception
+    private int sendClearCommand(int multiplier) throws Exception
     {
         int c;
         ArrayList<Integer> answer = new ArrayList();
 
-        this.output.flush();
-        Thread.sleep(this.MAX_INTERVAL * 10);
-
         this.output.write((char)Sign.REQUEST);
 
         this.output.flush();
-        Thread.sleep(this.MAX_INTERVAL * 3);
-        //this.input.reset();
-        System.out.println();
+
+        Thread.sleep(this.MAX_INTERVAL * multiplier);
+
         while ((c = input.read()) != -1)
             answer.add(c);
-
 
         if (answer.get(0) == Status.ERROR)
             return 1;
@@ -109,18 +58,17 @@ public class shtrih_connector
                 throw new Exception("Второй байт ответа не является STX!");
 
             this.output.write((char)Status.OK);
-            Thread.sleep(this.MAX_INTERVAL * 2);
             return 2;
         }
         else
             throw new Exception("Первый байт ответа не является ACK млм NAK!");
     }
 
-    private int clearAnswer() throws Exception
+    private int clearAnswer(int multiplier) throws Exception
     {
         int n = 0;
 
-        while(n < this.MAX_TRIES && this.sendClearCommand() != 1)
+        while(n < this.MAX_TRIES && this.sendClearCommand(multiplier) != 1)
         {
             if ( n > this.MAX_TRIES)
                 throw new Exception("Достигнут максимальный лимит попыток");
@@ -158,20 +106,10 @@ public class shtrih_connector
 
                 for (int i = 5; i < answer.size() - 2; i++)
                     data += (char)(int)answer.get(i);
-
-                /*if ((length - 3) != data.length())
-                {
-                    System.out.println(length);
-                    System.out.println(data.length());
-                    this.output.write((char)Status.ERROR);
-                    this.output.flush();
-                    throw new Exception("Длина сообщения не совпадает!");
-                }*/
             }
 
             this.output.write((char)Status.OK);
             this.output.flush();
-            //Thread.sleep(this.MAX_INTERVAL * 2);
         }
         else if (answer.get(0) == Status.ERROR)
         {
@@ -183,14 +121,12 @@ public class shtrih_connector
         return answer;
     }
 
-    private void open() throws Exception
+    private void open(int clear_multiplier) throws Exception
     {
         this.input = new FileInputStream(this.device.getAbsolutePath());
         this.output = new FileOutputStream(this.device.getAbsolutePath());
 
-        this.clearAnswer();
-        this.output.flush();
-        Thread.sleep(this.MAX_INTERVAL * 2);
+        this.clearAnswer(clear_multiplier);
     }
 
     private void close() throws Exception
@@ -199,9 +135,9 @@ public class shtrih_connector
         this.output.close();
     }
 
-    public ArrayList send(int command, int multiplier, char[] params_raw) throws Exception
+    public ArrayList send(int command, int multiplier, int clear_multiplier, char[] params_raw) throws Exception
     {
-        this.open();
+        this.open(clear_multiplier);
         /* Создание строки параметров */
         String params = Math.ByteToString(this.ADMIN_PASS);
 
@@ -231,6 +167,7 @@ public class shtrih_connector
         command_bytes[command_length - 1] = (byte)Math.LRC(content);
 
         this.output.write(command_bytes);
+        //this.output.flush();
 
         ArrayList answer = this.parseAnswer(multiplier);
 

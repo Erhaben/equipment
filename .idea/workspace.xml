@@ -9,8 +9,8 @@
     <list default="true" id="9c0a3b6a-9ac9-47a4-a596-7197d975d8da" name="Default" comment="" />
     <ignored path="equipment.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Init.java" changelist="9c0a3b6a-9ac9-47a4-a596-7197d975d8da" time="1368416962053" ignored="false" />
-    <file path="/fragment.java" changelist="9c0a3b6a-9ac9-47a4-a596-7197d975d8da" time="1369024964493" ignored="false" />
+    <file path="/Init.java" changelist="9c0a3b6a-9ac9-47a4-a596-7197d975d8da" time="1374746074907" ignored="false" />
+    <file path="/fragment.java" changelist="9c0a3b6a-9ac9-47a4-a596-7197d975d8da" time="1374747791224" ignored="false" />
     <file path="/SHTRIH_FR_K.java" changelist="9c0a3b6a-9ac9-47a4-a596-7197d975d8da" time="1365048882006" ignored="false" />
     <file path="/javax.usb.properties" changelist="9c0a3b6a-9ac9-47a4-a596-7197d975d8da" time="1364982445655" ignored="false" />
     <file path="/jython.java" changelist="9c0a3b6a-9ac9-47a4-a596-7197d975d8da" time="1365047310741" ignored="false" />
@@ -18,8 +18,8 @@
     <file path="/Main.java" changelist="9c0a3b6a-9ac9-47a4-a596-7197d975d8da" time="1369292584192" ignored="false" />
     <file path="$PROJECT_DIR$/../Console/src/Connector.java" changelist="9c0a3b6a-9ac9-47a4-a596-7197d975d8da" time="1365069558658" ignored="false" />
     <file path="/Connector.java" changelist="9c0a3b6a-9ac9-47a4-a596-7197d975d8da" time="1365069482071" ignored="false" />
-    <file path="/SHTRIH_M_PTK.java" changelist="9c0a3b6a-9ac9-47a4-a596-7197d975d8da" time="1369733314608" ignored="false" />
-    <file path="/shtrih_connector.java" changelist="9c0a3b6a-9ac9-47a4-a596-7197d975d8da" time="1368413903488" ignored="false" />
+    <file path="/SHTRIH_M_PTK.java" changelist="9c0a3b6a-9ac9-47a4-a596-7197d975d8da" time="1374747853226" ignored="false" />
+    <file path="/shtrih_connector.java" changelist="9c0a3b6a-9ac9-47a4-a596-7197d975d8da" time="1374743204431" ignored="false" />
     <file path="/MainController.java" changelist="9c0a3b6a-9ac9-47a4-a596-7197d975d8da" time="1365401499541" ignored="false" />
     <file path="/applet.java" changelist="9c0a3b6a-9ac9-47a4-a596-7197d975d8da" time="1370510044892" ignored="false" />
     <file path="/Encoding.java" changelist="9c0a3b6a-9ac9-47a4-a596-7197d975d8da" time="1365675158592" ignored="false" />
@@ -30,7 +30,7 @@
     <file path="/VERIFONE_VX_810.java" changelist="9c0a3b6a-9ac9-47a4-a596-7197d975d8da" time="1369622618331" ignored="false" />
     <file path="/verifonevx810_connector.java" changelist="9c0a3b6a-9ac9-47a4-a596-7197d975d8da" time="1369622575689" ignored="false" />
     <file path="/PrinterTest.java" changelist="9c0a3b6a-9ac9-47a4-a596-7197d975d8da" time="1366275670955" ignored="false" />
-    <file path="/Dummy.txt" changelist="9c0a3b6a-9ac9-47a4-a596-7197d975d8da" time="1366275726686" ignored="false" />
+    <file path="/Dummy.txt" changelist="9c0a3b6a-9ac9-47a4-a596-7197d975d8da" time="1374747770601" ignored="false" />
     <file path="/ShtrihMPtkTest.java" changelist="9c0a3b6a-9ac9-47a4-a596-7197d975d8da" time="1367232128882" ignored="false" />
     <file path="$PROJECT_DIR$/../ee/src/META-INF/persistence.xml" changelist="9c0a3b6a-9ac9-47a4-a596-7197d975d8da" time="1366344917615" ignored="false" />
     <file path="$PROJECT_DIR$/../ee/META-INF/application.xml" changelist="9c0a3b6a-9ac9-47a4-a596-7197d975d8da" time="1366344874291" ignored="false" />
@@ -39,7 +39,7 @@
     <file path="/index.jsp" changelist="9c0a3b6a-9ac9-47a4-a596-7197d975d8da" time="1366344942001" ignored="false" />
     <file path="$PROJECT_DIR$/../ee/web/azaza.jsp" changelist="9c0a3b6a-9ac9-47a4-a596-7197d975d8da" time="1366345051263" ignored="false" />
     <file path="$PROJECT_DIR$/../ee/src/com/tutorialspoint/HelloController.java" changelist="9c0a3b6a-9ac9-47a4-a596-7197d975d8da" time="1366345483432" ignored="false" />
-    <file path="/Check.java" changelist="9c0a3b6a-9ac9-47a4-a596-7197d975d8da" time="1366782559336" ignored="false" />
+    <file path="/Check.java" changelist="9c0a3b6a-9ac9-47a4-a596-7197d975d8da" time="1374747535550" ignored="false" />
     <file path="/native_io.java" changelist="9c0a3b6a-9ac9-47a4-a596-7197d975d8da" time="1367228419857" ignored="false" />
     <file path="/Linux.java" changelist="9c0a3b6a-9ac9-47a4-a596-7197d975d8da" time="1367230583710" ignored="false" />
     <file path="/PrinterController.java" changelist="9c0a3b6a-9ac9-47a4-a596-7197d975d8da" time="1369733366052" ignored="false" />
@@ -51,6 +51,11 @@
     <file path="$USER_HOME$/IdeaProjects/pos/src/main/VeriFone.java" changelist="9c0a3b6a-9ac9-47a4-a596-7197d975d8da" time="1369046578301" ignored="false" />
     <file path="/VeriFone.java" changelist="9c0a3b6a-9ac9-47a4-a596-7197d975d8da" time="1369043548418" ignored="false" />
     <file path="/PosController.java" changelist="9c0a3b6a-9ac9-47a4-a596-7197d975d8da" time="1369622654668" ignored="false" />
+    <file path="/printCheckTest.java" changelist="9c0a3b6a-9ac9-47a4-a596-7197d975d8da" time="1370857511713" ignored="false" />
+    <file path="/SessionTest.java" changelist="9c0a3b6a-9ac9-47a4-a596-7197d975d8da" time="1374743524484" ignored="false" />
+    <file path="/LongStringTest.java" changelist="9c0a3b6a-9ac9-47a4-a596-7197d975d8da" time="1370918459906" ignored="false" />
+    <file path="/IncomeOutcomeTest.java" changelist="9c0a3b6a-9ac9-47a4-a596-7197d975d8da" time="1370919078536" ignored="false" />
+    <file path="/printCancelCheckTest.java" changelist="9c0a3b6a-9ac9-47a4-a596-7197d975d8da" time="1374747657321" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +80,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -112,6 +116,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -121,10 +126,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="applet.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ru/equipment/init/applet.java">
+      <file leaf-file-name="SHTRIH_M_PTK.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ru/equipment/device/printer/SHTRIH_M_PTK.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="16" selection-start="510" selection-end="510" vertical-scroll-proportion="0.50246304">
+            <state line="39" column="19" selection-start="1067" selection-end="1067" vertical-scroll-proportion="-0.031825796">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shtrih_connector.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/equipment/hardware/printer/shtrih_connector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="169" column="10" selection-start="5051" selection-end="5051" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="printCheckTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/equipment/tests/printCheckTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="8" selection-start="1052" selection-end="2068" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,19 +155,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrinterController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/equipment/controller/PrinterController.java">
+      <file leaf-file-name="IncomeOutcomeTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/equipment/tests/IncomeOutcomeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="306" column="36" selection-start="8647" selection-end="8647" vertical-scroll-proportion="0.0">
+            <state line="35" column="21" selection-start="998" selection-end="998" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="printCancelCheckTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/equipment/tests/printCancelCheckTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="37" selection-start="1920" selection-end="1920" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SHTRIH_M_PTK.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/equipment/device/printer/SHTRIH_M_PTK.java">
+      <file leaf-file-name="LongStringTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/equipment/tests/LongStringTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="390" column="0" selection-start="11412" selection-end="11412" vertical-scroll-proportion="0.0">
+            <state line="24" column="782" selection-start="497" selection-end="1271" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -167,22 +201,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/ru/equipment/entity/Product.java" />
-        <option value="$PROJECT_DIR$/src/ru/equipment/tools/Convert.java" />
-        <option value="$PROJECT_DIR$/src/ru/equipment/tools/Sign.java" />
-        <option value="$PROJECT_DIR$/src/ru/equipment/hardware/linux/Native.java" />
-        <option value="$PROJECT_DIR$/src/ru/equipment/hardware/linux/native_io.java" />
-        <option value="$PROJECT_DIR$/src/ru/equipment/hardware/linux/Linux.java" />
-        <option value="$PROJECT_DIR$/tests/ShtrihMPtkTest.java" />
-        <option value="$PROJECT_DIR$/src/ru/equipment/entity/Check.java" />
-        <option value="$PROJECT_DIR$/src/ru/equipment/hardware/printer/shtrih_connector.java" />
-        <option value="$PROJECT_DIR$/src/ru/equipment/init/Init.java" />
         <option value="$PROJECT_DIR$/src/ru/equipment/hardware/terminal/verifonevx810_connector.java" />
         <option value="$PROJECT_DIR$/src/ru/equipment/device/terminal/VERIFONE_VX_810.java" />
         <option value="$PROJECT_DIR$/src/ru/equipment/controller/PosController.java" />
-        <option value="$PROJECT_DIR$/src/ru/equipment/device/printer/SHTRIH_M_PTK.java" />
         <option value="$PROJECT_DIR$/src/ru/equipment/controller/PrinterController.java" />
+        <option value="$PROJECT_DIR$/tests/ShtrihMPtkTest.java" />
+        <option value="$PROJECT_DIR$/src/ru/equipment/printCheckTest.java" />
+        <option value="$PROJECT_DIR$/src/ru/equipment/tests/LongStringTest.java" />
         <option value="$PROJECT_DIR$/src/ru/equipment/init/applet.java" />
+        <option value="$PROJECT_DIR$/src/ru/equipment/tests/SessionTest.java" />
+        <option value="$PROJECT_DIR$/src/ru/equipment/tests/IncomeOutcomeTest.java" />
+        <option value="$PROJECT_DIR$/src/ru/equipment/init/Init.java" />
+        <option value="$PROJECT_DIR$/src/ru/equipment/entity/Check.java" />
+        <option value="$PROJECT_DIR$/src/ru/equipment/device/printer/SHTRIH_M_PTK.java" />
+        <option value="$PROJECT_DIR$/src/ru/equipment/tests/printCheckTest.java" />
+        <option value="$PROJECT_DIR$/src/ru/equipment/tests/printCancelCheckTest.java" />
+        <option value="$PROJECT_DIR$/src/ru/equipment/hardware/printer/shtrih_connector.java" />
       </list>
     </option>
   </component>
@@ -191,6 +225,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-1" />
+    <option name="y" value="-4" />
     <option name="width" value="1282" />
     <option name="height" value="805" />
   </component>
@@ -226,7 +261,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="PackagesPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -238,6 +273,25 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Production">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Tests">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="All" />
+      </pane>
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -261,6 +315,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ru.equipment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="equipment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="equipment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ru.equipment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="equipment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="equipment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ru.equipment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -476,7 +566,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tools" />
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="equipment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="equipment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="equipment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="init" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -541,83 +653,8 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="equipment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="entity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="equipment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="equipment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="equipment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="device" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="equipment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="equipment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="equipment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="device" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="printer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Production">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Tests">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="All" />
       </pane>
     </panes>
   </component>
@@ -649,7 +686,7 @@
     <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Запуск в консоли">
+  <component name="RunManager" selected="JUnit.Тест смены">
     <configuration default="false" name="Запуск в консоли" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -820,10 +857,130 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="3">
+    <configuration default="false" name="Тест печати" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="equipment" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="ru.equipment.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.equipment.tests.printCheckTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Тест смены" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="equipment" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="ru.equipment.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.equipment.tests.SessionTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Длинная строка" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="equipment" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="ru.equipment.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.equipment.tests.LongStringTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Внос и выдача денег" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="equipment" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="ru.equipment.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.equipment.tests.IncomeOutcomeTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Тест отмены печати" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="equipment" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="ru.equipment.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.equipment.tests.printCancelCheckTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="8">
       <item index="0" class="java.lang.String" itemvalue="Applet.Запуск аплета" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Запуск в консоли" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.Тест принтера ( ШТРИХ-М )" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.Тест печати" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Тест смены" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Длинная строка" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.Внос и выдача денег" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.Тест отмены печати" />
+      <item index="6" class="java.lang.String" itemvalue="Application.Запуск в консоли" />
+      <item index="7" class="java.lang.String" itemvalue="JUnit.Тест принтера ( ШТРИХ-М )" />
     </list>
     <recent_temporary>
       <list size="2">
@@ -863,35 +1020,35 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1282" height="805" extended-state="0" />
-    <editor active="true" />
+    <frame x="-1" y="-4" width="1282" height="805" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.6543779" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2495935" sideWeight="0.6543779" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39938557" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39878234" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3455099" sideWeight="0.49756098" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31506848" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24754098" sideWeight="0.6849315" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959481" sideWeight="0.6636225" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33637747" sideWeight="0.49674797" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31506848" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.6543779" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -959,113 +1116,113 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ru/equipment/controller/PrinterController.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/equipment/tools/Status.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="306" column="36" selection-start="8647" selection-end="8647" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/equipment/device/printer/SHTRIH_M_PTK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="390" column="0" selection-start="11412" selection-end="11412" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/equipment/init/applet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/equipment/controller/PrinterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="306" column="36" selection-start="8647" selection-end="8647" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/equipment/device/printer/SHTRIH_M_PTK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="390" column="0" selection-start="11412" selection-end="11412" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../Library/JNA/linux-x86-64.jar!/OUT_OF_DATE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/equipment/hardware/printer/shtrih_connector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="51" selection-start="3720" selection-end="3720" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/ShtrihMPtkTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="57" selection-start="5103" selection-end="5143" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/equipment/entity/Check.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="15" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/equipment/init/Init.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="39" selection-start="4369" selection-end="4378" vertical-scroll-proportion="0.61290324">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/equipment/hardware/terminal/verifonevx810_connector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="171" column="45" selection-start="6576" selection-end="6576" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/equipment/controller/PosController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="20" selection-start="2200" selection-end="2200" vertical-scroll-proportion="0.0">
+        <state line="2" column="13" selection-start="42" selection-end="42" vertical-scroll-proportion="0.04918033">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/equipment/device/terminal/VERIFONE_VX_810.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="35" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="28" column="30" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/equipment/device/printer/SHTRIH_M_PTK.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/equipment/hardware/terminal/verifonevx810_connector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="390" column="0" selection-start="11412" selection-end="11412" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="171" column="38" selection-start="6569" selection-end="6569" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/equipment/controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/equipment/controller/PosController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/equipment/controller/PrinterController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="306" column="36" selection-start="8647" selection-end="8647" vertical-scroll-proportion="0.0">
+        <state line="217" column="54" selection-start="6168" selection-end="6168" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/equipment/init/applet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="16" selection-start="510" selection-end="510" vertical-scroll-proportion="0.50246304">
+        <state line="309" column="39" selection-start="7315" selection-end="7315" vertical-scroll-proportion="3.6650486">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/equipment/init/Init.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="37" selection-start="410" selection-end="410" vertical-scroll-proportion="0.40243903">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/equipment/entity/Check.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="27" selection-start="1813" selection-end="1813" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/equipment/tests/SessionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="0" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.6671949">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/equipment/tests/LongStringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="782" selection-start="497" selection-end="1271" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/equipment/tests/printCancelCheckTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="37" selection-start="1920" selection-end="1920" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/equipment/tests/printCheckTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="8" selection-start="1052" selection-end="2068" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/equipment/tests/IncomeOutcomeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="21" selection-start="998" selection-end="998" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/equipment/hardware/printer/shtrih_connector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="169" column="10" selection-start="5051" selection-end="5051" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/equipment/device/printer/SHTRIH_M_PTK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="19" selection-start="1067" selection-end="1067" vertical-scroll-proportion="-0.031825796">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1128,6 +1285,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

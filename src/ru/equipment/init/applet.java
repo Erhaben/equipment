@@ -404,7 +404,7 @@ public class applet extends Applet
 
                 this.printer.cut();
                 this.printer.printCliche();
-            }         */
+            }*/
 
             JSONObject json = new JSONObject(a);
             answer = json.toString();

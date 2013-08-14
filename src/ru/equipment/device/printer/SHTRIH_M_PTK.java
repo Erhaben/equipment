@@ -6,6 +6,7 @@ import ru.equipment.tools.Status;
 import ru.equipment.tools.Encoding;
 import ru.equipment.tools.Convert;
 
+import java.nio.ByteBuffer;
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -16,20 +17,11 @@ public class SHTRIH_M_PTK {
     public SHTRIH_M_PTK(String device) throws Exception
     {
         this.device = new shtrih_connector(device);
-
-        /*int loops = 0;
-        while ( this.device.checkState() == false )
-        {
-            System.out.println("Попытка подключиться №" + Integer.toString(loops));
-            if (loops == SHTRIH_M_PTK.MAX_TRY_COUNT)
-                throw new Exception("По какой-то причине принтер не готов");
-            loops += 1;
-        }*/
     }
 
     public HashMap beep() throws Exception
     {
-        ArrayList<Integer> answer = this.device.send(0x13, 1, new char[]{});
+        ArrayList<Integer> answer = this.device.send(0x13, 2, 1, new char[]{});
         if (answer.size() == 0 || answer == null)
             throw new Exception("Пустой ответ");
 
@@ -47,7 +39,8 @@ public class SHTRIH_M_PTK {
 
     public HashMap cut(int type) throws Exception
     {
-        ArrayList<Integer> answer = this.device.send(0x25, 1, new char[]{(char)type});
+        Thread.sleep(400);
+        ArrayList<Integer> answer = this.device.send(0x25, 2, 3, new char[]{(char)type});
         if (answer.size() == 0)
             throw new Exception("Пустой ответ");
 
@@ -60,6 +53,8 @@ public class SHTRIH_M_PTK {
             result.put("operator", answer.get(5));
             //result.put("document_number", answer.get(6));
         }
+
+        Thread.sleep(500);
 
         return result;
     }
@@ -78,7 +73,7 @@ public class SHTRIH_M_PTK {
         for (int i = 0; i < text.length(); i++)
             params[i + 1] = (char)in_cp1251[i];
 
-        ArrayList<Integer> answer = this.device.send(0x17, 1, params);
+        ArrayList<Integer> answer = this.device.send(0x17, 1, 1, params);
         if (answer.size() == 0)
             throw new Exception("Пустой ответ");
 
@@ -96,7 +91,7 @@ public class SHTRIH_M_PTK {
 
     public HashMap openSession() throws Exception
     {
-        ArrayList<Integer> answer = this.device.send(0xE0, 5, new char[]{});
+        ArrayList<Integer> answer = this.device.send(0xE0, 100, 10, new char[]{});
         if (answer.size() == 0)
             throw new Exception("Пустой ответ");
 
@@ -114,7 +109,7 @@ public class SHTRIH_M_PTK {
 
     public HashMap closeSession() throws Exception
     {
-        ArrayList<Integer> answer = this.device.send(65, 10, new char[]{});
+        ArrayList<Integer> answer = this.device.send(65, 100, 10, new char[]{});
         if (answer.size() == 0)
             throw new Exception("Пустой ответ");
 
@@ -129,13 +124,14 @@ public class SHTRIH_M_PTK {
                 result.put("operator", answer.get(5));
             }
         }
+        Thread.sleep(100);
 
         return result;
     }
 
     public HashMap printReport() throws Exception
     {
-        ArrayList<Integer> answer = this.device.send(0x40, 10, new char[]{});
+        ArrayList<Integer> answer = this.device.send(0x40, 10, 10, new char[]{});
         if (answer.size() == 0)
             throw new Exception("Пустой ответ");
 
@@ -147,13 +143,14 @@ public class SHTRIH_M_PTK {
             result.put("error_code", answer.get(4));
             result.put("operator", answer.get(5));
         }
+        Thread.sleep(400);
 
         return result;
     }
 
     public HashMap printBarcode(String barcode) throws Exception
     {
-        ArrayList<Integer> answer = this.device.send(0xc2, 5, barcode.toCharArray());
+        ArrayList<Integer> answer = this.device.send(0xc2, 5, 3, barcode.toCharArray());
         if (answer.size() == 0)
             throw new Exception("Пустой ответ");
 
@@ -171,7 +168,7 @@ public class SHTRIH_M_PTK {
 
     public ArrayList<Integer> printGraph(int begin, int end)  throws Exception
     {
-        return this.device.send(0xC1, 5, new char[]{(char)begin, (char)end});
+        return this.device.send(0xC1, 5, 3, new char[]{(char)begin, (char)end});
     }
 
     public ArrayList<Integer> loadGraph(int line, int[] data) throws Exception
@@ -181,14 +178,14 @@ public class SHTRIH_M_PTK {
         for(int i = 0; i < data.length; i++)
             params[1 + i] = (char)data[i];
 
-        return this.device.send(0xC0, 5, params);
+        return this.device.send(0xC0, 5, 3, params);
     }
 
     public HashMap cashInput(int amount) throws Exception
     {
         char[] params = Convert.toCharArray(amount);
 
-        ArrayList<Integer> answer = this.device.send(0x50, 5, params);
+        ArrayList<Integer> answer = this.device.send(0x50, 70, 3, params);
         if (answer.size() == 0)
             throw new Exception("Пустой ответ");
 
@@ -202,7 +199,15 @@ public class SHTRIH_M_PTK {
             {
                 result.put("error_code", answer.get(4));
                 result.put("operator", answer.get(5));
-                result.put("document_number", (Integer.parseInt(answer.get(6).toString() + answer.get(7).toString())));
+
+                /*int f_p = answer.get(6);
+                int n_p =  answer.get(7);
+                byte[] number = {(byte)f_p, (byte)n_p, 0x0, 0x0};
+                ByteBuffer wrapped = ByteBuffer.wrap(number);
+
+                result.put("document_number", wrapped.getInt());
+                System.out.println(answer);
+                System.out.println(result); */
             }
         }
 
@@ -213,7 +218,7 @@ public class SHTRIH_M_PTK {
     {
         char[] params = Convert.toCharArray(amount);
 
-        ArrayList<Integer> answer = this.device.send(0x51, 5, params);
+        ArrayList<Integer> answer = this.device.send(0x51, 70, 3, params);
         if (answer.size() == 0)
             throw new Exception("Пустой ответ");
 
@@ -227,6 +232,11 @@ public class SHTRIH_M_PTK {
             {
                 result.put("error_code", answer.get(4));
                 result.put("operator", answer.get(5));
+
+                /*byte[] number = {0x0, 0x0, answer.get(6).byteValue(), answer.get(7).byteValue()};
+                ByteBuffer wrapped = ByteBuffer.wrap(number);
+
+                result.put("document_number", wrapped.getInt());           */
             }
         }
 
@@ -237,7 +247,7 @@ public class SHTRIH_M_PTK {
     {
         char[] params = new char[]{(char)type, (char)count};
 
-        ArrayList<Integer> answer = this.device.send(0x29, 3, params);
+        ArrayList<Integer> answer = this.device.send(0x29, 3, 3, params);
         if (answer.size() == 0)
             throw new Exception("Пустой ответ");
 
@@ -257,7 +267,7 @@ public class SHTRIH_M_PTK {
 
     public HashMap printCliche() throws Exception
     {
-        ArrayList<Integer> answer = this.device.send(0x52, 3, new char[]{});
+        ArrayList<Integer> answer = this.device.send(0x52, 3, 3, new char[]{});
         if (answer.size() == 0)
             throw new Exception("Пустой ответ");
 
@@ -284,7 +294,7 @@ public class SHTRIH_M_PTK {
 
         int command = check.getCommand();
 
-        ArrayList<Integer> answer = this.device.send(0x8D, 5, new char[]{(char)check.getType()});
+        ArrayList<Integer> answer = this.device.send(0x8D, 50, 4, new char[]{(char)check.getType()});
 
         if (answer.get(0) != Status.OK)
             throw new Exception("Ошибка открытия чека");
@@ -300,14 +310,14 @@ public class SHTRIH_M_PTK {
                 this.printLongString(2, 39, title);
                 check.getProduct(i).title = "";
             }
-
-            answer = device.send(command, 3, check.getProduct(i).getSaleParams());
+            answer = device.send(command, 30, 5, check.getProduct(i).getSaleParams());
 
             if (answer.get(0) != Status.OK)
                 throw new Exception("Ошибка продажи товара");
         }
 
-        answer = device.send(0x85, 5, check.getCloseParams());
+        //Thread.sleep(400);
+        answer = device.send(0x85, 50, 8, check.getCloseParams());
 
         if (answer.get(0) != Status.OK)
             throw new Exception("Ошибка закрытия чека");
@@ -320,28 +330,6 @@ public class SHTRIH_M_PTK {
             {
                 result.put("error_code", answer.get(4));
                 result.put("operator", answer.get(5));
-            }
-        }
-
-        return result;
-    }
-
-    public HashMap getTableValue(int table, int row, int field) throws Exception
-    {
-        HashMap<String, Integer> result = new HashMap<String, Integer>();
-        byte[] bytes = java.nio.ByteBuffer.allocate(4).putInt(row).array();
-        char[] params = new char[]{(char)table, (char)bytes[2], (char)bytes[3], (char)field};
-
-        ArrayList<Integer> answer = this.device.send(0x1F, 10, params);
-        if (answer.size() == 0)
-            throw new Exception("Пустой ответ");
-
-        if (answer.get(0) == Status.OK)
-        {
-            if (answer.size() > 1)
-            {
-                result.put("error_code", answer.get(4));
-
             }
         }
 
@@ -392,7 +380,8 @@ public class SHTRIH_M_PTK {
 
     public HashMap cancelCheck() throws Exception
     {
-        ArrayList<Integer> answer = this.device.send(0x88, 3, new char[]{});
+        Thread.sleep(200);
+        ArrayList<Integer> answer = this.device.send(0x88, 3, 3, new char[]{});
         if (answer.size() == 0)
             throw new Exception("Пустой ответ");
 
@@ -410,7 +399,8 @@ public class SHTRIH_M_PTK {
 
     public HashMap continuePrint() throws Exception
     {
-        ArrayList<Integer> answer = this.device.send(0xB0, 3, new char[]{});
+        Thread.sleep(200);
+        ArrayList<Integer> answer = this.device.send(0xB0, 3, 3, new char[]{});
         if (answer.size() == 0)
             throw new Exception("Пустой ответ");
 
@@ -428,7 +418,8 @@ public class SHTRIH_M_PTK {
 
     public HashMap getStatus() throws Exception
     {
-        ArrayList<Integer> status = this.device.send(0x11, 10, new char[]{});
+        Thread.sleep(200);
+        ArrayList<Integer> status = this.device.send(0x11, 50, 3, new char[]{});
         if (status.size() == 0)
             throw new Exception("Пустой ответ");
 
